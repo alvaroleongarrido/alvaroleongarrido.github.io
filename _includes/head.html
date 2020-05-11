@@ -2,9 +2,42 @@
   <meta charset="utf-8">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="author" content="Álvaro León">
+  <meta name="email" content="alvaroleongarrido@gmail.com">
+  <meta name="description" content="Álvaro León - Data Analyst - Web Personal">
+  <meta name="keywords" content="Analyst,Big Data,R,Python,Machine Learning,Data Scientist,Cuantitativo,Encuesta">
 
   <title>{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.description %}{{ page.description | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
 
   <link rel="stylesheet" href="{{ "/assets/css/main.css" | prepend: site.baseurl }}">
+  <link rel="icon" href="/assets/img/iconos/barchart_icon.png">
+
+  <style>
+  .img-circle-large {
+    background-repeat: no-repeat;
+    border-radius: 50%;
+    width: 300px;
+    height: 300px;
+    background-color: white;
+    overflow: hidden;
+  }
+  .img-circle-src {
+    width: 100%;
+    height: 100%;
+    background-position: 50%;
+    background-size: cover;
+  }
+  .center {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .avatar {
+  vertical-align: middle;
+  width: 60px;
+  height: 60px;
+  border-radius: 50%;
+  }
+  </style>
+
 </head>
